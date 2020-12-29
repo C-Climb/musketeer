@@ -1,8 +1,29 @@
-QWidget { 
-    background-color: #0f1a20;
+QWidget {
+  background-color: #191923;
 }
 
 QLabel {
-    /* change to white later? CDD1DE */
-    color: #E2856E
+  /* change to white later? CDD1DE */
+  color: white;
+}
+
+QPushButton {
+  background-color: #bf1363;
+  color: white;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  width: 200px;
+  padding: 6px 4px;
+  margin-top: 4px;
+}
+
+QLineEdit {
+  background-color: white;
+  color: black;
+  width: 200px;
+  padding: 4px;
+  margin-top: 4px;
+  border: none;
+  outline: none;
 }
