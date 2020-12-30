@@ -16,6 +16,7 @@ QPushButton {
   width: 200px;
   padding: 6px 4px;
   margin-top: 4px;
+  font-weight: bold;
 }
 
 QLineEdit {

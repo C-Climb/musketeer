@@ -31,7 +31,7 @@ def twitter_login_form(window):
     button = QPushButton(window)
     button.move(60, 120)
     button.setText("Submit")
-    button.clicked.connect(lambda: test(usernameTextbox.text(), passwordTextbox.text()))
+    button.clicked.connect(lambda: asyncio.get_event_loop().run_until_complete(login_pixiv(usernameTextbox.text(), passwordTextbox.text())))
 
 
 def gui_elements(window):
